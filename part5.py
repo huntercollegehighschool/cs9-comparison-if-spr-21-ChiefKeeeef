@@ -23,3 +23,14 @@ not a month
 '''
 
 #start writing your code below
+month = input("Enter a month: ")
+while month not in ['January', 'February', 'March', 'April','May','June','July','August','September','October', 'November', 'December']:
+  print("Enter a valid part of the assignment.")
+  month = input("Enter a month: ")
+
+if month = ('January'or 'March' or 'May' or 'July' or 'August' or 'October' or 'December'):
+  print("31")
+elif month = 'February'
+  print("28 or 29")
+else:
+print("30")
